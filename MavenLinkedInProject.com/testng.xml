@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="tests" thread-count="3">
+ 
+  <test name="TestOnChrome"> 
+  <parameter name="Browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.LinkedIn.TestScripts.BlankEmailID"/>
+      <class name="com.LinkedIn.TestScripts.WrongPassword"/>
+      <class name="com.LinkedIn.TestScripts.WrongEmailID"/>
+      <class name="com.LinkedIn.TestScripts.BlankPassword"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="TestOnFireFox"> 
+  <parameter name="Browser" value="FireFox"></parameter>
+    <classes>
+      <class name="com.LinkedIn.TestScripts.BlankEmailID"/>
+      <class name="com.LinkedIn.TestScripts.WrongPassword"/>
+      <class name="com.LinkedIn.TestScripts.WrongEmailID"/>
+      <class name="com.LinkedIn.TestScripts.BlankPassword"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->
+ 
