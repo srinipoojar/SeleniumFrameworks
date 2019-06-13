@@ -37,7 +37,7 @@ public class BlankEmailID extends SuperTestNG {
 		log.info("This is the INFO log : Title of the page  matched and Test Case : BlankEmailID Passed");
 		log.warn("This is WARN message : The server is down");
 		log.error("This is ERROR message : The error is used to log the JAVA error and Exceptions");
-		log.fatal("This is FATAL error : The application will lead to abort");
+	//	log.fatal("This is FATAL error : The application will lead to abort");
 		
 		
 		
